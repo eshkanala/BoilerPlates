@@ -1,0 +1,33 @@
+webapp-boilerplate/
+├── frontend/              # React Frontend
+│   ├── public/           # Static assets (index.html, etc.)
+│   ├── src/              # React source code
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Application pages/views
+│   │   ├── services/       # API client logic, data fetching
+│   │   ├── state/          # Redux or Context API state management
+│   │   ├── assets/         # Images, fonts, etc.
+│   │   ├── App.js          # Main App component
+│   │   ├── index.js        # Entry point
+│   │   ├── ...
+│   ├── package.json
+│   ├── webpack.config.js (or similar build config)
+│   └── README.md        # Frontend specific README
+├── backend/               # Node.js/Express Backend
+│   ├── controllers/      # Logic for handling API requests
+│   ├── models/           # Database models/schemas
+│   ├── routes/           # API endpoint definitions
+│   ├── middleware/       # Custom middleware (authentication, etc.)
+│   ├── config/           # Configuration files (database, etc.)
+│   ├── server.js         # Main server entry point
+│   ├── package.json
+│   └── README.md        # Backend specific README
+├── database/              # Database setup scripts, migrations (optional)
+├── docs/                  # Documentation (see section III)
+├── scripts/               # Utility scripts (setup, seed data, etc.)
+├── .env.example           # Example environment variables file
+├── .gitignore
+├── README.md              # Root README (main documentation)
+├── LICENSE                # License file (see section IV)
+├── package.json           # Root package.json (for shared dependencies/scripts - optional)
+└── docker-compose.yml      # Docker Compose for local development
